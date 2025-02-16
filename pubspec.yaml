@@ -1,0 +1,41 @@
+name: aptpsee
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^3.1.0
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.4
+  url_launcher_android: ^6.0.36
+
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.3
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+  adaptive_icon_foreground: "assets/adaptive_foreground.png"
+  adaptive_icon_background: "assets/adaptive_background.png"
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
